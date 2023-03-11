@@ -1,0 +1,98 @@
+.icons-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-media{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .social-media li{
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  .social-media .fab:hover {
+    transition: all .3s ease;
+    box-shadow: .5rem .5rem .5rem #000;
+    transform: translateY(-.5rem);
+  }
+  .social-media li .fab.fa-facebook-f{ 
+    background: #3b5998;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: .5rem;
+    text-align:center;
+    line-height:5rem;
+    transition: all .3s ease;
+  }
+  .social-media li .fab.fa-linkedin-in{ 
+    background: #0083be;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: .5rem;
+    text-align:center;
+    line-height:5rem;
+    transition: all .3s ease;
+  }
+  .social-media li .fab.fa-whatsapp{ 
+    background: #25d366;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: .5rem;
+    text-align:center;
+    line-height:5rem;
+    transition: all .3s ease;
+  }
+
+@media (min-width: 758px) { 
+    .icons-social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .social-media{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+      }
+      .social-media li .fab.fa-facebook-f{ 
+        background: #3b5998;
+        color: white;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        margin: 2rem;
+        text-align:center;
+        line-height:5rem;
+        transition: all .3s ease;
+      }
+      .social-media li .fab.fa-linkedin-in{ 
+        background: #0083be;
+        color: white;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        margin: 2rem;
+        text-align:center;
+        line-height:5rem;
+        transition: all .3s ease;
+      }
+      .social-media li .fab.fa-whatsapp{ 
+        background: #25d366;
+        color: white;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        margin: 2rem;
+        text-align:center;
+        line-height:5rem;
+        transition: all .3s ease;
+      }
+}

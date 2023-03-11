@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="cleartype" content="on"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <title>Dev Crayon - Desarrollador Front End</title>
+    <meta name="author" content="Brayam Martínez" />
+    <meta name="copyright" content="DEV CRAYON" />
+    <meta name="description" content="Soy Brayam Martinez, Desarrollador Front End. Creo soluciones y optimizo los proyectos del lado cliente para brindar una excelente experiencia de usuario.">
+    <meta name="abstract" content="Soy Brayam Martinez, Desarrollador Front End. Creo soluciones y optimizo los proyectos del lado cliente para brindar una excelente experiencia de usuario." />
+    <link rel="canonical" href="https://www.devcrayon.com/" />
+    <meta property="og:type" content="website" />
+	  <meta property="og:title" content="Desarrollador Front End" />
+    <meta property="og:description" content="Soy Brayam Martinez, Desarrollador Front End. Creo soluciones y optimizo los proyectos del lado cliente para brindar una excelente experiencia de usuario.">
+    <meta property="og:url" content="https://www.devcrayon.com/" />
+	  <meta property="og:site_name" content="devcrayon" />
+    <meta property="og:image" content="https://www.devcrayon.com/build/img/logo-brayam.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="build/img/logo-b-dark.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap"
+    rel="stylesheet">
+
+    <!-- App.Css -->
+    <link rel="stylesheet" href="build/css/app.css" type="text/css"> 
+    <link rel="stylesheet" href="build/css/bootstrap.css" type="text/css"> 
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Google tag (gtag.js) Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEKLN786LV"></script>
+    <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+   
+          gtag('config', 'G-EEKLN786LV');
+    </script>
+  </head>
+
+  <body class="material-template">
+
+    <!-- button float Whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=+573223704897&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n.%20" class="float" target="_blank">
+      <i class="fab fa-whatsapp my-float"></i>
+    </a>
+    <!-- End button float Whatsapp -->
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content">
+          <div class="site-title-block mobile-hidden">
+              <div class="site-title">DevCrayon <span>/</span> <a href="index.html" class="lenguage" rel="noopener noreferrer"><i class="fa fa-language"></i></a>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#home" data-animation="62">Home</a><!-- href value = data-id without # of .pt-page. -->
+              </li>
+              <li>
+                <a class="pt-trigger" href="#resume" data-animation="62">Resume</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#services" data-animation="62">Services</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#portfolio" data-animation="62">Portfolio</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact" data-animation="62">Contact</a>
+              </li>
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
+        </div>
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">DevCrayon / <a href="index.html" rel="noopener noreferrer"><i class="fa fa-language" style="color: #ffff;"></i></a></div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page" data-id="home">
+              <div class="section-inner start-page-content">
+                <div class="page-header">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <div class="title-block">
+                        <h1>Brayam Martínez Perdomo</h1>
+                        <div class="owl-carousel text-rotation">                                    
+                          <div class="item">
+                            <div class="sp-subtitle">Web Developer</div>
+                          </div>
+                          <div class="item">
+                            <div class="sp-subtitle">Telecommunications Engineer</div>
+                          </div>
+                          <div class="item">
+                            <div class="sp-subtitle">Frontend-developer</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="social-links">
+                        <a href="https://www.facebook.com/brayam.martinezperdomo" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/brayam-martinez-perdomo/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+573223704897&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n.%20" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="page-content">
+                  <div class="row">
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="about-me">
+                        <div class="block-title">
+                            <h3>About <span>Me</span></h3>
+                        </div>
+                        <p>I am a Telecommunications Engineer and Developer
+                          frontend. Created solutions as a team, with a leadership role,
+                          using tools like css, sass, javascript, React and node.js.
+                          In order to optimize client-side projects and provide an excellent user experience.</p>
+                      </div>
+                      <div class="download-resume">
+                        <a href="cv/hv-cv-brayam-martinez.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <ul class="info-list">
+                        <li><span class="title">Country</span><span class="value">Colombia</span></li>
+                        <li><span class="title">Dirección</span><span class="value">Carrera 11 # 15-65</span></li>
+                        <li><span class="title">e-mail</span><span class="value"><a href="mailto:brayammartinezperdomo@gmail.com">brayammartinezperdomo@gmail.com</a></span></li>
+                        <li><span class="title">Phone</span><span class="value">+57 322-370-4897</span></li>
+                        <li><span class="title">Freelance</span><span class="value available">Disponible</span></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page" data-id="resume">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Resume</h2>
+                </div>
+                <div class="page-content">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Education</h3>
+                        </div>
+
+                        <div class="timeline">
+                          <!-- Education 1 -->
+                          <div class="timeline-item">
+                            <h3 class="item-title">UNAD</h3>
+                            <h4 class="item-title">Telecommunications Engineer</h4>
+                            <span class="item-period">2017-2021</span>
+                            <span class="item-small">UNAD</span>
+                            <br>
+                            <a href="cv/Diploma-profesional.pdf" target="_blank" class="btn btn-secondary">Download</a>      
+                          </div>
+                          <!-- / Education 1 -->
+
+                          <!-- Education 2 -->
+                          <div class="timeline-item">
+                            <h3 class="item-title">UDEMY</h3>
+                            <h4 class="item-title">FlexBox, CSS Grid, Sass</h4>
+                            <span class="item-period">22/01/2023</span>
+                            <span class="item-small">UDEMY</span>
+                            <br>
+                            <a href="cv/certificado-udemy-css.pdf" target="_blank" class="btn btn-secondary">Download</a>        
+                          </div>
+                          <!-- / Education 2 -->
+
+                          <!-- Education 3 -->
+                          <div class="timeline-item">
+                            <h3 class="item-title">PLATZI</h3>
+                            <h4 class="item-title">GIT Y GITHUB</h4>
+                            <span class="item-period">06/01/2022</span>
+                            <span class="item-small">PLATZI</span>
+                            <br>
+                            <a href="cv/diploma-git-github-appsco.pdf" target="_blank" class="btn btn-secondary">Download</a>      
+                          </div>
+                          <!-- / Education 3 -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Experience</h3>
+                        </div>
+
+                        <div class="timeline">
+                          <!-- Experience 1 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">CUSTOMER SUCCESS LEADER</h4>
+                            <span class="item-period">May - Septiembre 2022</span>
+                            <span class="item-small">SOFTGIC SAS</span>
+                            <p class="item-description">
+                              <strong>Functions:</strong>
+                              <br>
+                              Responsible for the implementation and
+                              Customer support in the processes of
+                              definition, analysis, development,
+                              deliveries, functional updates, support,
+                              training and consultancy (advice) in the
+                              tool.
+                              <br>
+                              <strong>Achievements:</strong>
+                              <br>
+                              Implementation in digital strategies and
+                              transactional in the different needs of the
+                              customer. from a simple
+                              web page of services and products, up to
+                              most advanced applications for companies
+                              pensions and severance pay, fiduciary,
+                              life insurance, securities, financial planning,
+                              holding and for the state (Government)</p>
+                              <br>
+                              <a href="cv/hv-cv-brayam-martinez.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                          </div>
+                          <!-- / Experience 1 -->
+
+                          <!-- Experience 2 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Developer Web and Marketing.</h4>
+                            <span class="item-period">2017 - 2022</span>
+                            <span class="item-small">DISTRIBUTOR P&P</span>
+                            <p class="item-description">
+                             <strong>Functions:</strong>
+                              <br>
+                              Voice to Voice Marketing Strategies in
+                              different municipalities of Caquetá and its capital.
+                              <br>
+                              Design and implement Marketing strategies
+                              of content.
+                              <br>
+                              <strong>Achievements:</strong>
+                              <br>
+                              Create digital marketing strategies to sell
+                              products at wholesale prices such as
+                              Creation of a web page offering a catalog in pdf for Download.
+                              <br><br>
+                              <a href="cv/hv-cv-brayam-martinez.pdf" target="_blank"  class="btn btn-secondary">Download CV</a>
+                            </p>
+                          </div>
+                          <!-- / Experience 2 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Coding <span>Skills</span></h3>
+                        </div>
+
+                        <div class="skills-info">
+                          <h4>CSS3</h4>                               
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div>
+
+                          <h4>SASS</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div>
+
+                          <h4>GULP</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div> 
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Coding <span>Skills</span></h3>
+                        </div>
+
+                        <div class="skills-info">
+                          <h4>JAVASCRIPT</h4>                               
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div>
+
+                          <h4>REACT</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div>
+
+                          <h4>NODE.JS</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div> 
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Download Resume Button -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <div class="block">
+                        <div class="center download-resume">
+                          <a href="cv/hv-cv-brayam-martinez.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Download Resume Button -->
+
+                </div>
+              </div>
+            </section>
+            <!-- End of Resume Subpage -->
+
+
+            <!-- Services Subpage -->
+            <section class="pt-page" data-id="services">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Services</h2>
+                </div>
+                <div class="page-content">
+                  <!-- My Services -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>My <span>Services</span></h3>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <!--<i class="service-icon fa fa-shopping-cart"></i>-->
+                          <div class="service-image">
+                            <img src="build/img/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
+                          </div>
+                          <h4>Web Design</h4>
+                          <p>I develop all kinds of web pages for your company or business
+                            and advised you in the digital field.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="build/img/service/photography_icon.png" alt="Photography" class="mCS_img_loaded">
+                          </div>
+                          <h4>Optimized Images</h4>
+                          <p>I optimize the images of the website, for a longer loading time of your page.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="build/img/service/creativity_icon.png" alt="Creativity" class="mCS_img_loaded">
+                          </div>
+                          <h4>Clean Code</h4>
+                          <p>Clean, readable and easy to maintain code</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="build/img/service/mobile.jpg" alt="Advetising" class="mCS_img_loaded">
+                          </div>
+                          <h4>Responsive Design</h4>
+                          <p>Your website adapted to all mobile devices.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of My Services -->
+
+                  <!-- Clients -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>Clients</h3>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="portafolio/previsora/copa2016/index.html" target="_blank"><img src="build/img/clients/logo-previsora.jpg" alt="Previsora Seguros" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="portafolio/positiva/masportodos/intro/index.html" target="_blank"><img src="build/img/clients/logo-positiva.png" alt="Positiva Compañia de Seguros" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="portafolio/cavipetrol/f/index.html" target="_blank"><img src="build/img/clients/logo-cavipetrol.jpg" alt="Cavipetrol" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="portafolio/pizano/newsletter/febrero/02022016/index.html" target="_blank"><img src="build/img/clients/logo-pizano.png" alt="Pizano" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="portafolio/generali/newsletter/23102015/index.html" target="_blank"><img src="build/img/clients/logo-generali.png" alt="Generali" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="portafolio/autogalias/newsletter/febrero/18022016/index.html" target="_blank"><img src="build/img/clients/logo-autogalias.png" alt="AutoGalias" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- End of Clients -->
+                </div>
+              </div>
+            </section>
+            <!-- End of Services Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page" data-id="portfolio">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Portfolio</h2>
+                </div>
+                <div class="page-content">
+
+                  <!-- Portfolio Content -->
+                  <div class="portfolio-content">
+                                
+                    <!-- Portfolio filter -->
+                    <ul id="portfolio_filters" class="portfolio-filters">
+                      <li class="active">
+                        <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                      </li>
+                    </ul>
+                    <!-- End of Portfolio filter -->
+
+                    <!-- Portfolio Grid -->
+                    <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                     <!-- Portfolio Item 1 -->
+                     <figure class="item" data-groups='["all","illustration"]'>                  
+                      <a href="build/img/portfolio/full/copa-america.png" class="lightbox" title="Previsora - Copa América 2016">
+                        <a href="portafolio/previsora/copa2016/index.html" target="_blank" rel="noopener noreferrer">
+                          <img src="build/img/portfolio/previsora/copa-america.png" alt="">                
+                          <div>
+                            <h5 class="name">America's Cup 2016</h5>
+                            <small>Previsora Seguros</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </a>                        
+                  </figure>
+                  <!-- /Portfolio Item 1 -->
+
+                  <!-- Portfolio Item 2 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/dory.png" class="lightbox" title="Previsora - ¿Efecto Dory?">
+                      <a href="portafolio/previsora/dory-registro/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/previsora/dory.png" alt="">
+                        <div>
+                          <h5 class="name">Dory effect?</h5>
+                          <small>Previsora Seguros</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 2 -->
+
+                  <!-- Portfolio Item 3 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/lifemiles.png" class="lightbox" title="Previsora - Life Miles">
+                      <a href="portafolio/previsora/lifemiles/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/previsora/lifemiles.png" alt="">
+                        <div>
+                          <h5 class="name">Life Miles</h5>
+                          <small>Previsora Seguros</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 3 -->
+
+                  <!-- Portfolio Item 4 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/cavifacil.png" class="lightbox" title="Cavipetrol - Crédito Cavifácil">
+                      <a href="portafolio/cavipetrol/f/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/cavipetrol/cavifacil.png" alt="">
+                        <div>
+                          <h5 class="name">Cavifácil Credit</h5>
+                          <small>Cavipetrol</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 4 -->
+
+                  <!-- Portfolio Item 5 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/inversion.png" class="lightbox" title="Cavipetrol - Crédito Inversión">
+                      <a href="portafolio/cavipetrol/b/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/cavipetrol/inversion.png" alt="">
+                        <div>
+                          <h5 class="name">Investment Credit</h5>
+                          <small>Cavipetrol</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 5 -->
+
+                  <!-- Portfolio Item 6 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/educativo.png" class="lightbox" title="Cavipetrol - Crédito Education">
+                      <a href="portafolio/cavipetrol/c/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/cavipetrol/educativo.png" alt="">
+                        <div>
+                          <h5 class="name">Educative credit</h5>
+                          <small>Cavipetrol</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 6 -->
+
+                  <!-- Portfolio Item 7 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/atrevete-volar.png" class="lightbox" title="Positiva Seguros - Atrévete a volar">
+                      <a href="portafolio/positiva/masportodos/intro/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/positiva/atrevete-volar.png" alt="">
+                        <div>
+                          <h5 class="name">Dare to fly</h5>
+                          <small>Positiva Seguros</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 7 -->
+
+                  <!-- Portfolio Item 8 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/espana.png" class="lightbox" title="Positiva Seguros - Atrévete a volar España">
+                      <a href="portafolio/positiva/masportodos/intro/espana/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/positiva/espana.png" alt="">
+                        <div>
+                          <h5 class="name">Dare to fly - Spain</h5>
+                          <small>Positiva Seguros</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 8 -->
+
+                  <!-- Portfolio Item 9 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/paris.png" class="lightbox" title="Positiva Seguros - Atrévete a volar Francia">
+                      <a href="portafolio/positiva/masportodos/intro/paris/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/positiva/paris.png" alt="">
+                        <div>
+                          <h5 class="name">Dare to fly - France</h5>
+                          <small>Positiva Seguros</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 9 -->
+
+                  <!-- Portfolio Item 10 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/autogalias.png" class="lightbox" title="Autogalias - Corporate Mail">
+                      <a href="portafolio/autogalias/newsletter/febrero/18022016/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/autogalias/autogalias.png" alt="">
+                        <div>
+                          <h5 class="name">Corporate Mail</h5>
+                          <small>Autogalias</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 10 -->
+
+                  <!-- Portfolio Item 11 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/pizano.png" class="lightbox" title="Pizano - Corporate Mail">
+                      <a href="portafolio/pizano/newsletter/febrero/02022016/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/pizano/pizano.png" alt="">
+                        <div>
+                          <h5 class="name">Corporate Mail</h5>
+                          <small>Pizano</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 11 -->
+
+                  <!-- Portfolio Item 12 -->
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="build/img/portfolio/full/generali.png" class="lightbox" title="Generali - Corporate Mail">
+                      <a href="portafolio/generali/newsletter/23102015/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="build/img/portfolio/generali/generali.png" alt="">
+                        <div>
+                          <h5 class="name">Corporate Mail</h5>
+                          <small>Generali</small>
+                          <i class="fa fa-image"></i>
+                        </div>
+                      </a>
+                    </a>
+                  </figure>
+                  <!-- /Portfolio Item 12 -->
+                    </div>
+                    <!-- /Portfolio Grid -->
+
+                  </div>
+                  <!-- /Portfolio Content -->
+                </div>
+              </div>
+            </section>
+            <!-- /Portfolio Subpage -->
+            
+            <!-- Contact Subpage -->
+            <section class="pt-page" data-id="contact">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Contact</h2>
+                </div>
+                <div class="page-content">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <div class="block-title">
+                        <h3>Get in <span>Touch</span></h3>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa-solid fa-earth-americas"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>Colombia</h5>
+                        </div>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>Career 11 # 15-65</h5>
+                        </div>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>brayammartinezperdomo@gmail.com</h5>
+                        </div>                  
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>devcrayon@devcrayon.com</h5>
+                        </div>                  
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>(+57) 322-370-4897</h5>
+                        </div>
+                      </div>
+                      <div class="icons-social">
+                        <ul class="social-media">
+                            <li><a href="https://www.facebook.com/brayam.martinezperdomo" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>                        
+                            <li><a href="https://api.whatsapp.com/send?phone=+573223704897&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n.%20" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/brayam-martinez-perdomo/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                      
+                    </div>
+
+                    <div class="col-sm-6 col-md-6">
+                      <div class="block-title">
+                        <h3>Contact <span>Form</span></h3>
+                      </div>
+                      <form id="contact-form" method="post" action="contact_form/contact_form.php">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa-solid fa-pen-nib"></i>
+                            <label>Subject</label>
+                            <input id="form_name" type="text" name="asunto" class="form-control" placeholder required="required" data-error="Subject is required">
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-user"></i>
+                            <label>Full Name</label>
+                            <input id="form_name" type="text" name="nombre" class="form-control" placeholder required="required" data-error="Name and Surname is required">
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-envelope"></i>
+                            <label>Email Address</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder required="required" data-error="Valid email address is required">
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa-solid fa-phone"></i>
+                            <label>Phone</label>
+                            <input id="form_email" type="tel" name="telefono" class="form-control" placeholder required="required" data-error="The phone is required">
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-comment"></i>
+                            <label>Leave your message here</label>
+                            <textarea id="form_message" name="mensaje" class="form-control" placeholder rows="4" required="required" data-error="Please leave a message."></textarea>
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="g-recaptcha" data-sitekey="6LdR2u0kAAAAANwmj2kcyXDD7Lfa-ihEWTudlR6A"></div>
+
+                          <input type="submit" class="button btn-send" name="submit" value="Enviar" id="entrar">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+    <footer>
+      <div class="copyrights">© 2023 All rights reserved. Dev Crayon</div>
+    </footer>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/pages-switcher.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/validator.js"></script>
+    <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/jquery.googlemap.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
